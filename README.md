@@ -2,9 +2,6 @@
 # Send DHT22 data with ESP32 using MQTT to Node-Red Dashboard
 
 
-## Flow diagram of the Project
-
-
 ### Step 1: Install the Required Libraries
 - Open an Arduino IDE --> Tools --> Manage Libraries
 - Search and install the following libraries
@@ -16,6 +13,7 @@
 
 ### Step 2: Hardware Schematic
 - Four pin DHT22
+- Three pin potentiometer
 <img src="./esp32.jpg" width=40% height=40%>
 
 ### Step 3: Running the program
@@ -31,7 +29,6 @@
 - Click on Menu --> Manage Palette
 - Search for "node-red-dashboard" and install it. 
 - Import the flow using the following code
-
 
 [
   {
@@ -235,11 +232,11 @@
     "wires": []
   }
 ]
+<img src="./node red.png" width=40% height=40%> 
 - Deploy the flow
 - Navigate to the following URL and modify the <your IP address>. For example http://localhost:1880/ui
 
 http://<your IP address>:1880/ui
 
 - Monitor the values in the Dashboard as below
- <img src="./node red.png" width=40% height=40%> 
 <img src="./dashboard.png" width=40% height=40%>
