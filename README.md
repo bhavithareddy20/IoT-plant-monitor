@@ -4,7 +4,6 @@
 
 ## Flow diagram of the Project
 
-<img src="./esp32mqttdht22_github.svg" width=100% height=40%>
 
 ### Step 1: Install the Required Libraries
 - Open an Arduino IDE --> Tools --> Manage Libraries
@@ -17,7 +16,7 @@
 
 ### Step 2: Hardware Schematic
 - Four pin DHT22
-<img src="./DHT22_esp32.png" width=40% height=40%>
+<img src="./esp32.jpg" width=40% height=40%>
 
 ### Step 3: Running the program
 - Copy the code to the Arduino IDE
@@ -242,5 +241,5 @@
 http://<your IP address>:1880/ui
 
 - Monitor the values in the Dashboard as below
-  
-<img src="./nodered-dashboard-humidity-temp.png" width=40% height=40%>
+ <img src="./node red.png" width=40% height=40%> 
+<img src="./dashboard.png" width=40% height=40%>
